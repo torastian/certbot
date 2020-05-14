@@ -2,7 +2,7 @@
 
 > certbot but with all the plugins
 
-![[Docker Image Size (tag)](https://img.shields.io/docker/image-size/ptrcnull/certbot/latest)](https://hub.docker.com/r/ptrcnull/certbot)
+[![Docker Image Size (tag)](https://img.shields.io/docker/image-size/ptrcnull/certbot/latest)](https://hub.docker.com/r/ptrcnull/certbot)
 
 ```
 docker run -it --rm --name certbot \
