@@ -1,16 +1,14 @@
-# ptrcnull/certbot
+# torastian/certbot
 
-> certbot but with all the plugins
+> Certbot Docker image with all the plugins available
 
-[![Docker Image Size (tag)](https://img.shields.io/docker/image-size/ptrcnull/certbot/latest)](https://hub.docker.com/r/ptrcnull/certbot)
+[![Docker Image Size (tag)](https://img.shields.io/docker/image-size/torastian/certbot/latest)](https://hub.docker.com/r/torastian/certbot)
 
 ```
 docker run -it --rm --name certbot \
             -v "/etc/letsencrypt:/etc/letsencrypt" \
             -v "/var/lib/letsencrypt:/var/lib/letsencrypt" \
-            ptrcnull/certbot certonly
+            torastian/certbot certonly
 ```
-
-Disclaimer: probably someone made this already, if so, you can add a link to the repo in the issues.
 
 
